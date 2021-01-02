@@ -1,0 +1,220 @@
+body{
+    background-color: mistyrose;
+}
+#box {
+    width: 200px;
+    height: 200px;
+    margin: 150px auto;
+    background: #ccc;
+    position: relative;
+    transform: perspective(800px) rotateY(-60deg) rotateX(45deg);
+    transform-style: preserve-3d;
+}
+
+#box div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 100px #5fbcff;
+    opacity: .8;
+}
+
+#box .front {
+    transform: translateZ(100px);
+    background: url(/images/m1.jpg);
+}
+
+#box .back {
+    transform: translateZ(-100px);
+    background: url(/images/m2.jpg);
+}
+#box .top_u {
+    transform: translateY(-100px) rotateX(90deg);
+    background: url(/images/m3.jpg);
+}
+
+#box .bottom {
+    transform: translateY(90px) rotateX(90deg);
+    background: url(/images/m4.jpg);
+}
+#box .left {
+    transform: translateX(-100px) rotateY(90deg);
+    background: url(/images/m5.jpg);
+}
+
+#box .right {
+    transform: translateX(100px) rotateY(90deg);
+    background: url(/images/m6.jpg);
+}
+
+
+
+.content1 {
+    width: 100%;
+}
+.content1 .Rank {
+    float: left;
+    position: relative;
+    width: 390px;
+    height: 400px;
+    left: 360px;
+}
+.content1 .Rank .span1{
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+}
+.content1 .Rank .list{
+    width: 390px;
+    height: 30px;
+}
+.content1 .Rank .list>p{
+    float: left;
+    width: 60px;
+    height: 22px;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 16px;
+    background-color: mistyrose;
+}
+.content1 .Rank .list>p:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.content1 .Rank .list>p:first-child{
+    background-color:floralwhite;
+}
+.content1 .Rank .play_c{
+     display: block;
+     width: 390px;
+    height: 300px;
+    overflow-y: auto;
+ }
+.content1 .Rank .play_c div{
+    width: 390px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.content1 .Rank .play_c div:nth-child(even){
+    background-color: rgba(245, 245, 220,0.6);
+    box-shadow: 0 0 5px dodgerblue;
+}
+.content1 .Rank .play_c div:nth-child(odd){
+    bbackground-color: rgba(240, 248, 255,0.6);
+    box-shadow: 0 0 5px brown;
+}
+.content1 .Rank .play_c div p{
+    float: left;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.content1 .Rank .comment_c{
+    display: none;
+    width: 390px;
+    height: 300px;
+    overflow-y: auto;
+}
+.content1 .Rank .comment_c div{
+    width: 390px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.content1 .Rank .comment_c div:nth-child(even){
+    background-color: rgba(245, 245, 220,0.6);
+    box-shadow: 0 0 5px dodgerblue;
+}
+.content1 .Rank .comment_c div:nth-child(odd){
+    bbackground-color: rgba(240, 248, 255,0.6);
+    box-shadow: 0 0 5px brown;
+}
+.content1 .Rank .comment_c div p{
+    float: left;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.content1  .music_name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content1  .singer_name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content1 .Kind {
+    float: left;
+    position: relative;
+    width: 390px;
+    height: 400px;
+    left: 380px;
+}
+.content1 .Kind .span1{
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+}
+.content1 .Kind .list{
+    width: 390px;
+    height: 30px;
+}
+.content1 .Kind .list>p{
+    float: left;
+    width: 50px;
+    height: 22px;
+    margin-top: 4px;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: mistyrose;
+}
+.content1 .Kind .list>p:hover{
+   cursor: pointer;
+    font-weight: bold;
+}
+.content1 .Kind .list>p:first-child{
+    background-color:floralwhite;
+}
+.content1 .Kind .kindContent{
+    width: 390px;
+}
+.content1 .Kind .kindContent>div{
+    display: none;
+    width: 390px;
+    height: 300px;
+    overflow-y: auto;
+}
+.content1 .Kind .kindContent>div:first-child{
+    display: block;
+}
+.content1 .Kind .kindContent div div{
+    width: 390px;
+    height: 25px;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+}
+.content1 .Kind .kindContent div div p{
+    float: left;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.content1 .Kind .kindContent div>div:nth-child(even){
+    background-color: rgba(245, 245, 220,0.6);
+    box-shadow: 0 0 5px dodgerblue;
+}
+.content1 .Kind .kindContent div>div:nth-child(odd) {
+    background-color: rgba(240, 248, 255, 0.6);
+    box-shadow: 0 0 5px brown;
+}
+.content1:after{
+    content: '';
+    display: block;
+    clear: both;
+}

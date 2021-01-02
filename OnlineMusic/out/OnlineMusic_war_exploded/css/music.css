@@ -1,0 +1,218 @@
+@font-face {font-family: "iconfont";
+    src: url('iconfont.eot?t=1609383810819'); /* IE9 */
+    src: url('iconfont.eot?t=1609383810819#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAToAAsAAAAACmAAAASZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDXgqHKIYZATYCJAMcCxAABCAFhG0HZxv4CBGVnF/JfhTGMbFQRGWvrKKStz8vj8a+D9nzbdo8+Eg/bUjNWVMHkqqse7onUU/3Zi6s+a1ClE0297/9fJqmqVA4hZAYiSQeDBqJwiElRrG1bF8oVSFMhLkq39J89Xv72dKyk8vRPE6jFEKCcPz9mKsTbwtNX9u8l/9nboho5MiEREgilvDUBtdJmVZ5hNfVXqjBfhgIcCe10blrbxOqoKMI0HVwQRZUj0sS2GRaR8SFQb0gmW2OcB3AIuP76Y+GpYJg6aBH9c/vkov2ju6sEH3lPqliEXzVBQDcLgMR1AYw6BkZ8kG0DLUN0xq1O3MB4DI1o6rexjtVnXrOQGdFeTne8bSR7DwcmKZbhvXPowE0BQLVW5ZxdEUIDCdeCAJOVSGIOPWEIOEMFALhrDBjUsnK4S4QDnQA9BHUyiFRW46BQ7bAeLdb1AMaD6K4TpFhzh9p6oMP1v335kPHfvTRun/ffPDAevTI8/ChOW9PNLTvHt/uyhzv3XP9McR3+ouKq2m0rngoX74b7L4nXFtVTNIqf453wNhMMYgLWnpJuDwEBhtwDbgeBHoP3DPH08yyPbZtmlZedmaKneOxssyscLOdZoFSaAFcpwiXHlXa+rDr+fvGlgddCA38hhMM/PbRlHWwpc0PnkyQNp1qph84Ec/WH2/MzcNTloexFeFatLViXqQnUlsVKa2MMAPnDiQQGbRicE6TO2xNm9ffEH1PmGGwJ+wwDHUc1vXbz379Cuj3XzGMk3baETKJ/H73xMoT3XqQJlX+Eg2S8SykfdF/NXQt0iu+1m831BcFhXTBk/W64o/BzJk17/t9lt+6P7P8ZSS150R0S1nROu5QD3Zx3JLDzUdsZKQhK365T/hIlFLq7XsVY+78hRBhf5TPfCwZhvQYHYahjnfqTp9gJSUB/YkrhvFS/ey+VJBPfThRUNCXgFxAyK9rOapnD0VWGKNHM2TlpFEYKSxfJoxoQt4J45MIkZYnbxNhRHDnkQKUdTytFxYeMW6IDN0w3hofdLSwUI9+12ZzgJdvfnJ76NBjFa+NGLn36WbuDdh86N8cV8OEhrfn3MYLV58uczWKb+Qq0yvFV0JLtKvwE74C5b6gP5B7Xzwr1iaesHQ4Y3/HhKJWFTL01v9VjQGA56GZs0BbTHXamWVWn5/qjPPYV0tuJe+plRECIICi864sCADO64CzMhbirzpLeOZOgKjCHRAo4kGkqkxk1Nog0TQGmaodcLXcX64JxbYoAQBq+hJA3L5B4HIKRG4/REb9BUmEf5C5SwTOrqsbaqrW4LNrRiW4h+kDvKZiZK+cmd0PaJek2K01OC/Is8/C0Pb+6j0W5CpOmV/tKGLAMGW4E4/DlAgqU0AtrROpu64zUV/UasqrM50wpAi0ByYfgKeRwmibi7NA7x8ga5EonDDpR/EFYjO/fTBo9RmI96aSadKuvGT2yhoJYQCDkQzciQBKXCKgRu8XIE20XIFCtdPhYiarqW3ektfzFgCObqiUQCIxkkgmhVQoN69KUKQuJzKq2E+7eH33I8VMb83JWEeLDhtwaJGxHNfwYlrKagUAAAA=') format('woff2'),
+    url('iconfont.woff?t=1609383810819') format('woff'),
+    url('iconfont.ttf?t=1609383810819') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1609383810819#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    min-height: 80%;
+    background-image: url(/images/musicbg.jpg);
+    background-position: 0,0;
+    background-size: cover;
+}
+.content .up{
+    position: relative;
+    width:70%;
+    height: 210px;
+    left: 15%;
+}
+.content .up .musicPhoto{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.content .up .musicPhoto img{
+    width: 150px;
+}
+.content .up .music_name{
+    position: relative;
+    max-width: 800px;
+    height: 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    top:10px;
+    margin-left: 10px;
+}
+
+.content .up .singer_name{
+    position: relative;
+    max-width: 800px;
+    height: 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.content .up .kind_name{
+    position: relative;
+    max-width: 800px;
+    height: 22px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.content .up .Function{
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 22px;
+    margin-left: 10px;
+}
+.content .up .Function .Drop{
+    position: relative;
+    width: 50px;
+    float: left;
+}
+.content .up .Function .Drop:hover .droplist{
+        display: block;
+}
+.content .up .Function .Drop .droplist{
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    z-index: 100;
+}
+.content .up .Function .Drop .droplist li{
+    display: block;
+    width: 150px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    list-style: none;
+}
+.content .up .Function .Drop .droplist li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.content .up .Function p{
+    float: left;
+    background-color: #4291da;
+    height: 20px;
+}
+
+.content .up .Function .playNum,
+.content .up .Function .commentNum{
+    max-width:80px;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.content .up .Function .iconfont{
+    width: 50px;
+    color: white;
+    text-align: center;
+    margin-right: 2px;
+    font-size: 20px;
+}
+.content .up .Function .iconfont.pause{
+    margin-right:10px;
+}
+.content .up .Function .iconfont:hover{
+     cursor: pointer;
+}
+.content .up .progress {
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    left:-310px;
+    top:40px;
+}
+
+.content .up .progress .progress-bar {
+    position: relative;
+    width: 70%;
+    height: 5px;
+    background-color: #eee;
+    vertical-align: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.content .up .progress .progress-bar .now {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 5px;
+    width: 70%;
+    background: #31c27c;
+}
+
+.content .up .progress .progress-bar .now:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    width: 3px;
+    height: 7px;
+    background-color: lightblue;
+}
+.content .Comment{
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+.content .Comment .description{
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+.content .Comment .commentButton{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 460px;
+    background-color: rgba(255, 0, 0,0.5);
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+}
+.content .Comment .commentButton:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.content .Comment .commentContent{
+    width: 100%;
+    margin-top: 30px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+.content .Comment .commentContent .userComment{
+    margin-bottom: 5px;
+    background-color: rgba(240,255,255,0.5);
+    border: 1px solid gray;
+}
+.content .Comment .commentContent .userComment .userName{
+    color: burlywood;
+    font-weight: 600;
+}
+.content .Comment .commentContent .userComment .desc{
+    font-size: 15px;
+}
+#message{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    font-size: 18px;
+    left: 50%;
+    top:20%;
+    z-index: 100;
+}

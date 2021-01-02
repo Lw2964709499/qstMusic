@@ -1,0 +1,12 @@
+.bottom {
+    border-top: 1px solid;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 13px;
+    color: #777777;
+    text-align: center;
+}
+
+.bottom a {
+    color: #999999;
+}
